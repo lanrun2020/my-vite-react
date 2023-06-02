@@ -1,0 +1,43 @@
+.header-content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  max-width: 60%;
+  margin: 0 auto;
+
+  >a {
+    line-height: 34px;
+    height: 34px;
+    margin-right: 20px;
+  }
+
+  input {
+    outline: none;
+    height: 30px;
+    border-radius: 20px;
+    padding: 5px 15px;
+    background-color: #888888;
+    border: none;
+  }
+
+  .img-wrap {
+    width: 120px;
+  }
+
+  .catrgory {
+    display: flex;
+    height: 100%;
+    margin-left: auto;
+    gap: 20px;
+    min-width: 300px;
+
+    .catrgory-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      // min-width: 60px;
+    }
+  }
+
+}
